@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Inter:wght@200;300;500;600&family=Josefin+Sans:wght@300;600&family=Nunito:wght@400;600&family=Roboto+Condensed:wght@100;300;500&family=Roboto+Slab:wght@400;700&family=Rubik:wght@400;600&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  font-family: "Antic Didone" , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #c8afd9;
+  background-image: linear-gradient(0deg, #c8afd9 0%, #97D9E1 100%);
+  ;
+}
+
+.currency-converter {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+}
+
+h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  border-bottom: 2px dashed #ccc;
+  border-top: 2px dashed #ccc;
+  color: #341f97;
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  height: 200px;
+  background-image: url("assets/currency.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #888;
+  font-weight: 500; 
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #341f97;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+input:focus,
+select:focus {
+   border-color: #341f97;
+}
+
+.results {
+  margin-top: 20px 0px;
+  padding: 10px;
+  border: 2px dotted #34988db;
+  border-radius: 5px;
+}
+
+.result p {
+  margin-bottom: 10px;
+  color: #341f97;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  width: 300px;
+  height: 200px;
+  margin:  auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(32, 115, 223);
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(194, 35, 35, 0.2);
+  padding: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #341f97;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
